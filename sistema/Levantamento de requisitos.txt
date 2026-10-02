@@ -1,0 +1,22 @@
+Levantamento de requisitos
+
+RF01 Permitir que um usuário realize login utilizando login e senha.
+RF02 Informar falha quando login ou senha estiverem incorretos.
+RF03 Manter o usuário autenticado por sessão e encerrar a sessão após tempo de expiração.
+RF04 Exibir o nome do usuário autenticado na tela principal.
+RF05 Permitir logout e retorno à tela de login.
+RF06 Cadastrar, listar, editar e excluir tutores.
+RF07 Permitir buscar tutores por um termo e atualizar a listagem.
+RF08 Armazenar o CPF do tutor de forma protegida/criptografada.
+RF09 Cadastrar, listar, editar e excluir pets.
+RF10 Associar cada pet obrigatoriamente a um tutor.
+RF11 Cadastrar, listar, editar e excluir agendamentos.
+RF12 Exibir os agendamentos ordenados por data/hora.
+RF13 Exibir na listagem do agendamento os dados do tutor e do pet.
+Regras de negócio que o aluno também deve anotar:
+RN01 - Todas as tabelas criadas devem possuir pelo menos três registros no script inicial.
+RN02 - O CPF do tutor não deve ficar armazenado em texto puro no banco.
+RN03 - Um pet só pode ser cadastrado se existir um tutor.
+RN04 - Um agendamento só pode ser cadastrado se existir um pet.
+RN05 - A tela principal deve mostrar o nome do usuário logado e permitir sair.
+RN06 - A listagem de agendamentos deve ficar ordenada pela data/hora do atendimento.
